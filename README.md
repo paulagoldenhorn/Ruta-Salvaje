@@ -1,4 +1,4 @@
-# Rutas Salvajes
+# Ruta Salvaje
 Sistema de booking - Proyecto Integrador grupal
 ### El Equipo:
 #### Frontend y UX/UI
