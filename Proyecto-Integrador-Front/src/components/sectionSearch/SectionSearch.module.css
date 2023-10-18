@@ -1,0 +1,140 @@
+.orderSectionSearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+    text-align: end;
+    border-radius: .5rem;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 6px #a7a5a5;    
+}
+
+.orderSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.inputSectionSearch {
+    padding: .4rem 7rem .4rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid #cdcaca;
+}
+
+.btnSectionSearch {
+    font-size: 20px;
+    padding: 0 .6rem;
+    border-radius: .5rem;
+    border: 1px solid #bcb8b8;
+    background-color: rgb(236, 234, 234);
+    margin-left: .5rem;
+}
+
+.btnSectionSearch:hover {
+    background-color: #e8e5e4;
+}
+
+.titleresSearch {
+    width: 60%;
+}
+
+.titleresSearch h2 {
+    color: rgb(137, 136, 136);
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.titleresSearch p {
+    color: rgb(54, 53, 53);
+    font-weight: 600;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.errorInput {
+    animation: shake 0.3s;
+    border: 1px solid red;
+    background-color: #fbebeb;
+    color: red;
+    font-weight: 700;
+}
+
+@media (max-width:1360px) {
+    .titleresSearch {
+        width: 50%;
+    }
+    .orderSearch {
+        width: 50%;
+    }
+}
+@media (max-width:1260px) {
+    .titleresSearch {
+        width: 45%;
+    }
+    .orderSearch {
+        width: 55%;
+    }
+}
+
+/* TABLET */
+    @media (max-width:1120px) {
+        .titleresSearch {
+            width: 90%;
+        }
+        .orderSectionSearch{
+            flex-direction: column-reverse;
+        }
+        .titleresSearch p{
+            display: none;
+        }
+        .titleresSearch {
+            text-align: center;
+        }
+        .titleresSearch h2 {
+            font-size: .8em;
+        }
+        .orderSearch {
+            width: 90%;
+        }
+        .inputSectionSearch {
+            padding: .3rem 4rem .3rem .5rem;
+        }
+}
+
+
+/* FIN DE TABLET COMIENZO DE CELULAR */
+@media (max-width: 600px) {
+    .orderSearch {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .orderSectionSearch{
+        padding: .3rem;
+    }
+    .inputSectionSearch{
+        padding: .3rem;
+        width: 60%;
+    }
+}

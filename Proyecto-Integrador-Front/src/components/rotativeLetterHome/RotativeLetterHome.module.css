@@ -1,0 +1,106 @@
+.ContainRotativeLetterHome {
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    color: #fff;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 6.2rem;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.ulRotativeLetterHome li{
+    padding: .5rem;
+}
+ul.ulRotativeLetterHome {
+    list-style: none;
+    animation: cambiar 12s infinite;
+    margin: 0;
+    padding: 0;
+    
+}
+
+@keyframes cambiar {
+
+    0% {
+        margin-top: 0;
+    }
+    20% {
+        margin-top: 0;
+    }
+    25% {
+        margin-top: -7.5rem;
+    }
+    45% {
+        margin-top: -7.5rem;
+    }
+    50% {
+        margin-top: -15rem;
+    }
+    70% {
+        margin-top: -15rem;
+    }
+    75% {
+        margin-top: -22.5rem;
+    }
+    95% {
+        margin-top: -22.5rem;
+    }
+    100% {
+        margin-top: -28.8rem;
+    }
+
+}
+
+@media (max-width: 704px) {
+    .ContainRotativeLetterHome {
+        height: 3rem;
+        font-size: 3rem;
+        line-height: 3.1rem;     
+    }
+    
+    @keyframes cambiar {
+    
+        0% {
+            margin-top: -.5rem;
+        }
+        20% {
+            margin-top: -.5rem;
+        }
+        25% {
+            margin-top: -4.5rem;
+        }
+        45% {
+            margin-top: -4.5rem;
+        }
+        50% {
+            margin-top: -8.5rem;
+        }
+        70% {
+            margin-top: -8.5rem;
+        }
+        75% {
+            margin-top: -13rem;
+        }
+        95% {
+            margin-top: -13rem;
+        }
+        100% {
+            margin-top: -17.2rem;
+        }
+    
+    }
+}
+@media (max-width: 404px) {
+    .header{
+        padding: 0;
+    }
+    .ulRotativeLetterHome li{
+        padding: 0 0 0 2rem;
+    }
+}

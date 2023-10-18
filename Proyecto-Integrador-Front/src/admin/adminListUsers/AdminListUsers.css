@@ -1,0 +1,36 @@
+.AdminCardItemImgUser {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    box-shadow: 2px 2px 2px rgb(192, 190, 190);
+    padding: .5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.orderTitleCardArminUser {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: .7rem;
+    margin: 0 1rem;
+    width: 70%;
+}
+
+.orderTitleCardArminUser h4 {
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: .25rem;
+    color: #525050;
+}
+
+.userdiv{
+    display: flex;
+    flex-direction: row;
+    padding:5%
+}
+.adminUserIcon {
+    color: #E95823;
+}

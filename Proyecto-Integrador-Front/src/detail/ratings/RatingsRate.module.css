@@ -1,0 +1,270 @@
+.ratingsRateModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99999;
+    padding: 2rem;
+}
+
+.ratingsRateDetail {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.ratingsRateDetail h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: grey;
+}
+
+.Mediatitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.Mediatitle h2 {
+    font-size: 8rem;
+    font-weight: 700;
+    color: #E95823;
+}
+
+.Mediatitle p {
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.closeButton {
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    background: none;
+    border: none;
+    color: #ffffff;
+    background-color: #E95823;
+    font-size: 16px;
+    font-weight: 600;
+    padding: .7rem;
+    border: none;
+    border-radius: .5rem;
+    padding: .3rem 1rem;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.Mediarating {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+ul.listRatingGraph {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    margin: 2rem 0;
+}
+
+.starRating {
+    margin-right: .5rem;
+    font-size: 1.2rem;
+}
+.orangeStar{
+    color: #E95823;
+}
+.grayStar, .blueee{
+    color: #5a5655;
+}
+.ratingpp{
+        color: #000000;
+    }
+.progressDark {
+    border: none;
+    height: 8px;
+    min-width: 70%;
+    background-color: #d0cdca;
+    border-radius: 4px;
+}
+ul.listRatingUsers{
+    margin: 1rem 0;
+    padding: 0;
+}
+.listRatingUsers {
+    margin: .5rem;
+    list-style: none;
+    overflow-y: scroll;
+    max-height: 470px;
+    background-color: rgb(231, 229, 229);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
+.listRatingUsers li {
+    padding: 0 1rem;
+}
+.evenRow {
+    background-color: rgb(231, 229, 229);
+}
+.oddRow {
+    background-color: rgb(243, 240, 240);
+}
+
+.imgUserRat {
+    width: 40px;
+    height: 40px;
+    background-color: #b2afae;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.imgUserRat img {
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.imageCalifc {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.ratingUserd {
+    display: flex;
+    gap: 2rem;
+}
+.filterRatingOrder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.filterRatingOrder select{
+    background-color: rgb(236, 234, 234);
+    border: 1px solid gray;
+    padding: 0 1rem 0 .5rem;
+    border-radius: .3rem;
+    font-weight: 600;
+    font-size: .9rem;
+    color: rgb(96, 95, 95);
+    cursor: pointer;
+}
+
+.buttonDelete {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+
+.buttonDelete:hover {
+    font-weight: 600;
+}
+
+.loader {
+    width: 20px;
+    padding: 5px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: red;
+    --_m:
+        conic-gradient(#0000 10%, #000),
+        linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+    mask: var(--_m);
+    -webkit-mask-composite: source-out;
+    mask-composite: subtract;
+    animation: l3 1s infinite linear;
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+}
+
+@keyframes l3 {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@media (max-width: 600px) {
+    .closeButton {
+        right: 8%;
+    }
+
+    .Mediarating {
+        gap: 0;
+        padding: .5rem;
+    }
+
+    .Mediatitle h2 {
+        font-size: 5rem;
+    }
+
+    ul.listRatingGraph {
+        margin: 0 0 2rem;
+    }
+
+    .Mediatitle p {
+        bottom: 0rem;
+    }
+    .ratingsRateDetail h3{
+        font-size: 1.3rem;
+    }
+    .ratingsRateDetail p{
+        font-size: .9rem;
+    }
+}
+@media (max-width: 490px) {
+    ul.listRatingGraph li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+    .blueee{
+        display: none;
+    }
+
+    .Mediarating {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .Mediatitle h2 {
+        font-size: 6rem;
+    }
+    .ratingUserd{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0;
+        padding-bottom: .5rem;
+    }    
+    .filterRatingOrder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        gap: .5rem;
+    }
+}
+@media (max-width: 433px) {
+    ul.listRatingGraph{
+        display: none;
+    }
+}

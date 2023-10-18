@@ -1,0 +1,328 @@
+.registro{
+    padding: 2rem;
+}
+
+.registerProductContainer {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 100vh;
+    padding-left: 2rem;
+}
+
+.namePriceFields label, .description label, .categoryTitle, .mainUrl label, .mainAlt label, .previewTitleBox, .addServicesTitle {
+    font-weight: 600;
+}
+
+.titleComponent {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.registerProductContainer input {
+    border-width: 1px; 
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.registerProductContainer textarea {
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    height: 70px;
+}
+
+.formContainer  {
+    width: 600px;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 12px;
+}
+
+.namePriceFields {
+    display: flex;
+}
+
+.namePriceFields div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+.description, .mainUrl, .mainAlt {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formCategories {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.categories {
+    display: flex;
+    gap: 20px;
+}
+
+.categories input{
+    height: 10px;
+    margin-right: 5px;
+}
+
+.sideImageContainer, .characteristics {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.sideImageContainer div {
+    width: 45%;
+}
+
+.sideImageContainer div input {
+    width: 90%;
+}
+
+.characteristics div {
+    width: 85%;
+}
+
+.characteristics div input {
+    width: 100%;
+}
+
+.buttonContainer {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deleteButton {
+    border:1px solid #E95823;
+    background-color: white;
+    height: 34px;
+    border-radius: 10px;
+    color: #E95823;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.buttonContainer button {
+    margin-right: 20px;
+}
+
+.addImageButton {
+    background-color: white;
+    border-color: #E95823;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    color: #E95823;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.nextDiv {
+    height: 40px;
+    width: 400px;
+    background-color: #E95823;
+    border: none;
+    margin-top: 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.firstPage {
+    display: flex;
+    gap: 20px;
+}
+
+.previewContainer {
+    width: 400px;
+    height: 675px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+.imagesPreview {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.mainImagePreview {
+    display: flex;
+    justify-content: center;
+}
+
+.mainImagePreview img {
+    border-radius: 10px;
+}
+
+.sideImagesPreview {
+    width: 326px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.sideImageBox {
+    width: 100px;
+    height: 120px;
+}
+
+.sideImageBox img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.radioServices {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.radioBox {
+    display: flex;
+    font-size: 17px;
+    gap: 10px
+}
+
+.iconService {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.send {
+    height: 40px;
+    width: 400px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #E95823;
+}
+
+
+p.textError {
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.noError {
+    background-color: white;
+  }
+
+.error {
+    background-color: pink;
+    border: 2px solid red;
+    -webkit-animation: kf_shake 0.4s 1 linear;
+    -moz-animation: kf_shake 0.4s 1 linear;
+    -o-animation: kf_shake 0.4s 1 linear;
+}
+
+@-webkit-keyframes kf_shake {
+    0% { -webkit-transform: translate(30px); }
+    20% { -webkit-transform: translate(-30px); }
+    40% { -webkit-transform: translate(15px); }
+    60% { -webkit-transform: translate(-15px); }
+    80% { -webkit-transform: translate(8px); }
+    100% { -webkit-transform: translate(0px); }
+}
+@-moz-keyframes kf_shake {
+    0% { -moz-transform: translate(30px); }
+    20% { -moz-transform: translate(-30px); }
+    40% { -moz-transform: translate(15px); }
+    60% { -moz-transform: translate(-15px); }
+    80% { -moz-transform: translate(8px); }
+    100% { -moz-transform: translate(0px); }
+}
+@-o-keyframes kf_shake {
+    0% { -o-transform: translate(30px); }
+    20% { -o-transform: translate(-30px); }
+    40% { -o-transform: translate(15px); }
+    60% { -o-transform: translate(-15px); }
+    80% { -o-transform: translate(8px); }
+    100% { -o-origin-transform: translate(0px); }
+}
+
+.hideName, .hidePrice, .hideDescription, .hideMainImage, .hideMainImageAlt, .hideCategory, .hideCharacteristics {
+	visibility: hidden;
+}
+
+.showName, .showPrice, .showDeescription, .showMainImage, .showMainImageAlt, .showCategory, .showCharacteristics {
+	visibility: visible;
+}
+
+.sendCheck {
+    font-size: 20px;
+}
+
+.success, .errorMessage {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.success {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconSuccess {
+    font-size: 20px;
+}
+
+.errorMessage {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.errorMessage p {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.loader {
+    width: 20px;
+    padding: 5px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: white;
+    --_m: 
+      conic-gradient(#0000 10%,#000),
+      linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    -webkit-mask-composite: source-out;
+            mask-composite: subtract;
+    animation: l3 1s infinite linear;
+    margin: 0 auto;
+  }
+  @keyframes l3 {to{transform: rotate(1turn)}}

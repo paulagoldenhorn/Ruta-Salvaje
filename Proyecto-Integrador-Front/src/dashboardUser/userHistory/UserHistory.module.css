@@ -1,0 +1,377 @@
+.boxXitemsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.boxXitemsContainer h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.iconSave {
+    margin-left: 1rem;
+    color: #e95823;
+    font-size: 3rem;
+}
+
+.registerRes {
+    margin: 1.5rem 0 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loadder {
+    margin: 20rem 0;
+}
+
+.registerResMarrr {
+    margin: 4rem 0 2rem;
+    border-radius: .5rem;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+    padding: 1rem 2rem 0.5rem;
+}
+
+.registerResList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    border-radius: .5rem;
+}
+
+.registerResList h3 {
+    margin-bottom: .6rem;
+    border-radius: .3rem;
+    align-items: center;
+    color: #868484;
+    font-weight: 700;
+}
+
+.registerResList h4 {
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: .6rem;
+    border-radius: .3rem;
+    padding: .3rem 2rem;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.registerResPendientes {
+    background-color: #81817e;
+}
+
+.registerResCompletadas {
+    background-color: #e95823;
+}
+
+.registerResCanceladas {
+    background-color: #313030;
+}
+
+.ReservCardItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+}
+
+.ReservCardItemImg {
+    box-shadow: 1px 1px 2px rgb(164, 162, 162);
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem 0 0 1rem;
+    margin-right: .2rem;
+    object-fit: cover;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.ReservCardItemDetail {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 1rem 1rem 0;
+    margin-right: .5rem;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+    height: 200px;
+}
+
+.ReservCardItemDetail h4 {
+    font-size: 1.1em;
+    color: rgb(56, 55, 55);
+    font-weight: 600;
+}
+
+.spanAdminListRes {
+    color: #868484;
+}
+
+.ReservCardtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem 0;
+}
+
+.detailResBtoo {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detailResBtoo li {
+    padding: 1rem;
+    text-align: center;
+}
+
+.ordenListUserInfoRes {
+    display: flex;
+}
+
+.detailResBtooLi p {
+    font-weight: 600;
+    color: #5c5b5b;
+    border-radius: .3rem;
+    padding: .2rem .5rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: .5rem;
+    border: 2px solid #686564;
+}
+
+.detailResBtooLi h4 {
+    border: 2px solid #5c5b5b;
+    border-radius: .3rem;
+    padding: .2rem .5rem;
+    background-color: #5c5b5b;
+    color: #ffffff;
+    margin-bottom: .5rem;
+}
+
+.orderResButtonPro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderResButtonPro button {
+    margin: 0 .5rem;
+}
+
+.orderResButtonPro a {
+    margin: 0 .5rem;
+}
+
+.BtnResrv {
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background: #f4f3f3;
+    color: rgb(65, 63, 63);
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.svgRes {
+    width: 14px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: rgb(0, 0, 0);
+    transition-duration: .3s;
+}
+
+.BtnResrv:hover {
+    background-color: rgb(156, 153, 153);
+    color: transparent;
+}
+
+.BtnResrv:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+    transform: scale(1.7);
+}
+
+.BtnResrv:active {
+    transform: translate(1.5px, 1.5px);
+    transition-duration: .3s;
+    background-color: rgb(106, 103, 103);
+}
+
+@media (max-width: 1420px) {
+
+    .ReservCardItem {
+        max-width: 100%;
+        margin: 0 1rem;
+    }
+
+    .detailResBtoo {
+        font-size: .8rem;
+        justify-content: space-evenly;
+        padding: .5rem;
+    }
+
+    .detailResBtoo li {
+        padding: .5rem;
+    }
+
+    .orderResButtonPro {
+        margin-right: 1rem;
+    }
+
+    .ReservCardtitle {
+        padding: 1rem 2rem 0rem;
+    }
+
+    .ordenListUserInfoRes {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 1420px) {
+    .orderResButtonPro {
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+
+@media (max-width: 1120px) {
+    .ReservCardMo {
+        padding: 0 0 0 2rem;
+    }
+}
+
+@media (max-width: 870px) {
+    .detailResBtoo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ReservCardItem {
+        width: 100%;
+        height: 300px;
+        margin: 0 0 2rem;
+    }
+
+    .ReservCardItemImg {
+        width: 250px;
+        height: 300px;
+    }
+
+    .ReservCardItemDetail {
+        height: 300px;
+    }
+}
+
+@media (max-width: 730px) {
+    .boxXitemsContainer h3 {
+        font-size: 2.5rem;
+    }
+
+    .ReservCardItem {
+        width: 100%;
+    }
+
+    .ReservCardItemDetail {
+        width: 100%;
+    }
+
+    .ReservCardItemDetail h4 {
+        font-size: .8em;
+    }
+
+    .detailResBtooLi p {
+        font-size: .7rem;
+    }
+
+    .registerRes {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 620px) {
+
+    .spanAdminListResNone,
+    .spanAdminListHr {
+        display: none;
+    }
+
+    .ReservCardItem {
+        width: 100%;
+        height: 230px;
+        margin: 0 0 2rem;
+    }
+
+    .ReservCardItemImg {
+        width: 150px;
+        height: 230px;
+    }
+
+    .ReservCardItemDetail {
+        height: 230px;
+    }
+}
+
+@media (max-width: 560px) {
+    .ReservCardItem {
+        flex-direction: column;
+        margin: 0 0 4.5rem 0;
+    }
+
+    .ReservCardItemImg {
+        display: none;
+    }
+
+    .ReservCardItemDetail {
+        border-radius: .5rem;
+    }
+
+    .detailResBtooLi p {
+        font-size: .6rem;
+    }
+
+    .detailResBtoo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ReservCardMo {
+        padding: 0 0 0 1rem;
+    }
+
+    .orderResButtonPro {
+        flex-direction: row;
+        margin: .5rem;
+        gap: 0;
+    }
+
+    .boxXitemsContainer h3 {
+        font-size: 1.5rem;
+    }
+}

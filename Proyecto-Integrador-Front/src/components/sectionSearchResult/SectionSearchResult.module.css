@@ -1,0 +1,75 @@
+.allBoxHomeItems {
+    width: 100%;
+}
+
+.OrderBy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.2rem 3rem;
+}
+
+.OrderByTwo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.parrafOrder,
+.parrafOrderTwo {
+    font-weight: 600;
+    color: rgb(132, 128, 128);
+}
+
+.selectOrderTwo {
+    background-color: rgb(236, 234, 234);
+    border: 1px solid gray;
+    padding: 0 1rem 0 .5rem;
+    border-radius: .3rem;
+    font-weight: 600;
+    font-size: .9rem;
+    color: rgb(96, 95, 95);
+    cursor: pointer;
+}
+
+.boxProducts {
+    padding: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(208, 205, 205);
+    border-radius: .5rem;
+    min-height: 100vh;
+}
+
+.orderItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+.additionalItem {
+    width: 540px;
+}
+
+@media (max-width:1512px) {
+    .OrderByTwo {
+        margin: .5rem 0 1.5rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .parrafOrder {
+        display: none;
+    }
+
+    .OrderBy {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.2rem 0rem;
+    }
+
+    .parrafOrderTwo {
+        font-size: .8rem;
+    }
+}

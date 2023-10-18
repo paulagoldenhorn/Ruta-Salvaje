@@ -1,0 +1,329 @@
+.nestedUser {
+    position: sticky;
+    top: 6.5rem;
+    margin-bottom: 2rem;
+}
+
+.navNestedUser {
+    margin-bottom: 2rem;
+}
+
+.titleBobDash {
+    color: rgb(39, 38, 38);
+    font-weight: 600;
+    margin: 1rem 0 0 1rem;
+    font-size: 1.2rem;
+}
+
+.userDetailsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+}
+
+.userImgDetailsBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.userImgDetailsBox img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+label.plusIcon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rgb(54, 53, 53);
+}
+
+.plusIcon {
+    position: relative;
+    font-size: 3rem;
+    left: 3rem;
+    bottom: 2.6rem;
+    color: #e95823;
+}
+
+.plusIconIco {
+    position: relative;
+    bottom: 1rem;
+}
+
+
+.plusIcon:hover {
+    color: #cc4d1f;
+    cursor: pointer;
+}
+
+
+
+ul.infoBoxUD {
+    margin: 0;
+    padding: 0;
+    margin-top: 0rem;
+}
+
+.infoBoxUD li {
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(110, 109, 109);
+}
+
+.iconUserDte {
+    margin-right: 1rem;
+
+}
+
+.userNameUDP {
+    font-weight: 600;
+}
+
+.listNestedUsers ul {
+    margin: 0;
+    padding: 0;
+    margin: 2rem 0 10rem;
+}
+
+.listNestedUsers li {
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.listNestedUsers a {
+    text-align: left;
+    text-decoration: none;
+    color: rgb(75, 73, 73);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: .5rem;
+}
+
+.listDraslist a:hover {
+    cursor: pointer;
+    color: #E95823;
+    animation: bounce_613 0.6s linear;
+}
+
+.CloseInput {
+    margin-top: 2rem;
+    color: #6b6969;
+}
+
+.CloseInput a {
+    color: #726f6f;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.1);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent h2 {
+    font-weight: 600;
+    color: rgb(54, 53, 53);
+
+}
+
+.modalLeft {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.previewImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.modalRight p {
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+    color: rgb(54, 53, 53);
+}
+
+.modalRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputProfileImg {
+    border-radius: .5rem;
+    border: 1px solid gray;
+    padding: .2rem .5rem;
+
+}
+
+.UploadProfileImg {
+    width: 150px;
+    height: 40px;
+    background-color: #e95823;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1120px) {
+
+    .titleBobDash,
+    .listNestedUsersHR,
+    li.CloseInput {
+        display: none;
+    }
+
+    .navNestedUser {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+    }
+
+    .userDetailsBox {
+        flex-direction: row;
+        gap: 2rem;
+        border: 2px solid rgb(153, 150, 150);
+        padding: 1rem 2rem;
+        border-radius: .3rem;
+        background-color: #c5c5c5;
+        margin: 1rem 0 0;
+    }
+
+    .userImgDetailsBox {
+        width: 150px;
+        height: 150px;
+    }
+
+    .userImgDetailsBox img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .listNestedUsers ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    label.plusIcon {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        background-color: rgb(54, 53, 53);
+    }
+
+    .plusIcon {
+        position: relative;
+        font-size: 2rem;
+        left: -4rem;
+        bottom: -3rem;
+        color: #e95823;
+    }
+
+    .plusIconIco {
+        position: relative;
+        bottom: .68rem;
+    }
+}
+
+@media (max-width: 750px) {
+
+    li.HomeInputuser,
+    .listDraslisticooo {
+        display: none;
+    }
+
+    .navNestedUser {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        gap: .5rem;
+    }
+
+    .listNestedUsers ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    .listNestedUsers li {
+        margin: 0;
+        gap: .5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .userImgDetailsBox {
+        width: 100px;
+        height: 100px;
+    }
+
+    .userImgDetailsBox img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .userNameUDP {
+        font-size: .8rem;
+    }
+
+    .listDraslist a {
+        font-size: .9rem;
+    }
+
+    .userDetailsBox {
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .plusIcon {
+        left: -2.5rem;
+        bottom: -2.5rem;
+        color: #e95823;
+    }
+}

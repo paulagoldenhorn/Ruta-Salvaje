@@ -1,0 +1,267 @@
+.product-container {
+    width: 540px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 2px 2px 4px #aba9a9;
+    overflow: hidden;
+}
+
+.product-container:hover {
+    box-shadow: 1px 1px 3px #c5c4c4;
+    transition: .5s;
+}
+
+.container-image img {
+    object-fit: cover;
+}
+
+.itemImageStyle {
+    width: 256px;
+    height: 310px;
+}
+
+.product-description {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.pDescIntern p {
+    font-weight: 600;
+    padding: 1.5rem 1rem 0 1rem;
+}
+
+.title-description {
+    font-size: 20px;
+}
+
+.text-description {
+    font-size: 12px;
+}
+
+.limitText p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.see-more-btn {
+    width: 110px;
+    height: 40px;
+    background-color: #e95823;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.orderbtnAndInfo {
+    padding: 1.5rem 1rem;
+}
+
+.product-price h3 {
+    font-size: 1.5rem;
+    color: rgb(87, 85, 85);
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.orderBtnAndFav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.save-solid {
+    color: #e95823;
+}
+
+.containerbtnSave {
+    color: #9d9d9f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+
+.containerbtnSave .save-regular {
+    animation: keyframes-fill .5s;
+}
+
+.containerbtnSave .save-solid {
+    animation: keyframes-fill .5s;
+}
+
+@keyframes keyframes-fill {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scaleY(1.2);
+    }
+}
+
+@media (max-width: 1220px) {
+    .product-container {
+        width: 500px;
+        height: 280px;
+    }
+
+    .product-price h3 {
+        margin-bottom: .2rem;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .product-container {
+        width: 450px;
+        height: 230px;
+    }
+
+    .product-description {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .title-description {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .orderbtnAndInfo {
+        padding: 1rem .5rem;
+    }
+
+    .pDescIntern p {
+        font-weight: 600;
+    }
+
+    .text-description {
+        display: none;
+    }
+
+    .pDescIntern p {
+        padding: 0 .3rem;
+    }
+
+    .orderBtnAndFav {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 1040px) {
+    .product-container {
+        width: 380px;
+        height: 200px;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    .product-container {
+        width: 330px;
+        height: 200px;
+    }
+
+    .text-description {
+        display: none;
+    }
+
+    .title-description {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .product-price h3 {
+        font-size: 1.2rem;
+        margin-bottom: .2rem;
+    }
+
+    .containerbtnSave {
+        margin-right: 0rem;
+        margin-left: .5rem;
+    }
+}
+
+@media (max-width: 679px) {
+    .product-container {
+        width: 300px;
+        height: 172px;
+    }
+
+    .itemImageStyle {
+        height: 172px;
+    }
+
+    .orderBtnAndFav {
+        justify-content: space-around;
+    }
+
+    .title-description {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .see-more-btn {
+        width: 75px;
+        height: 30px;
+        font-size: 12px;
+        margin-right: .5rem;
+    }
+
+    .orderbtnAndInfo {
+        padding: .6rem;
+    }
+
+    .containerbtnSave {
+        margin-right: 0rem;
+        margin-left: .5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .containerbtnSave {
+        margin-left: .1rem;
+    }
+
+    .orderbtnAndInfo {
+        padding: .3rem;
+    }
+
+    .see-more-btn {
+        width: 70px;
+        font-size: 10px;
+        margin-right: 0rem;
+    }
+
+    .product-price h3 {
+        font-size: .9rem;
+        margin-bottom: .2rem;
+    }
+
+    .product-description {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .product-price h3 {
+        display: none;
+    }
+
+    .orderBtnAndFav {
+        flex-direction: column
+    }
+}

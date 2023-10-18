@@ -1,0 +1,138 @@
+.filterContainer {
+    border: 2px solid rgb(214, 212, 212);
+    border-radius: .5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 6px #a7a5a5;
+}
+
+ul.listFiltersul {
+    list-style: none;
+}
+
+.listFiltersul li {
+    margin: .5rem 0;
+}
+
+.listFilterslabel {
+    color: rgb(118, 118, 118);
+    font-size: .9rem;
+}
+
+.listFilterslabel input {
+    margin-right: .5rem;
+}
+
+hr.filterSectionhrTop {
+    margin: .5rem 1.5rem 1.5rem;
+    border: 1px solid rgb(96, 94, 94);
+}
+
+hr.filterSectionhr {
+    margin: 1.5rem;
+    border: 1px solid rgb(96, 94, 94);
+}
+
+.filterHeader {
+    display: flex;
+    margin: 1rem 2rem 0;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.filterHeader h4 {
+    color: rgb(97, 95, 95);
+    font-size: 1.5em;
+}
+
+.ErrorfilterHeader {
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btnSectionSearch {
+    font-size: 1.5rem;
+    color: rgb(80, 78, 78);
+    font-weight: 600;
+}
+
+.btnSectionSearch:hover {
+    cursor: pointer;
+    animation: keyframes-fill .5s;
+}
+
+@keyframes keyframes-fill {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scaleY(.9);
+    }
+
+    50% {
+        transform: scaleY(1.3);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+
+
+.filterSectionOrder h5 {
+    margin: 1rem 2rem;
+    color: rgb(89, 88, 88);
+    font-weight: 600;
+}
+
+.selectDateFilter {
+    margin: 0 1.5rem .5rem;
+}
+
+.selectDateFilter input {
+    color: rgb(118, 118, 118);
+    font-weight: 600;
+}
+
+.shakeButton {
+    animation: shake 0.4s;
+    background-color: pink;
+    border: 1px solid red;
+    color: red;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+@media (max-width: 720px) {
+    .filterContainer {
+        margin-top: 1rem;
+        margin-right: 0;
+    }
+
+}

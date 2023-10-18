@@ -1,0 +1,29 @@
+.AdminCardItemImgCate{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;   
+    box-shadow: 2px 2px 2px gray; 
+}
+.orderTitleCardArminCate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: .5rem 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin: 0 1rem;
+    width: 60%;
+}
+.orderTitleCardArminCate h4{
+    font-size: 14px;
+    font-weight: 600;
+  color: #525050;
+}
+.orderTitleCardArminCa{
+    display: flex;
+    justify-content: space-between;
+}
+.detailCategoryPa h4{
+    color: #8e8686;
+}
+

@@ -1,0 +1,22 @@
+.detail-text{
+    background-color:#E95823;
+    width: 100%;
+    height: auto;
+    font-size: 3em;
+    color: aliceblue;
+    padding: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 1120px) {
+    .detail-text {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 679px) {
+.detail-text {
+    font-size: 20px ;
+}
+}

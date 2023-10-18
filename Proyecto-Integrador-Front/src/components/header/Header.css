@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+.header {
+  background-image: url(/images/banner-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0px 40px;
+}
+
+.header-title {
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.headerDescription {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-container-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.botonHeader {
+  padding: 8px 20px;
+  background-color: #e95823;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  transition: 0.4s;
+}
+
+.botonHeader {
+  font-weight: 300;
+}
+
+
+.custom-container {
+  width: 350px;
+}
+
+.custom-container .rmdp-input {
+  width: 350px;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.botonHeader:hover {
+  background-color: white;
+  color: #e95823;
+  border-color: #e95823;
+}
+
+.dinamicText {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+@media (max-width: 679px) {
+
+  .header-title {
+    transform: scale(0.8);
+  }
+
+  .headerDescription {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form-container-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  .form-container {
+    flex-direction: column;
+  }
+}
+
+  .boton-header {
+    width: 350px;
+  }
+
+  .dinamicText {
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 60px;
+  }
+
+}
+@media (max-width: 404px) {
+  .header{
+      padding: 0 1rem;
+  }
+}
+@media (max-width: 321px) {
+
+  .header-container-header {
+    display: flex;
+    width: 90vw;
+  }
+
+  .header-title {
+    display: flex;
+    font-size: 2.5em;
+  }
+
+  .form-container-header {
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width:321px) and (max-width: 768px) {
+  .form-container-header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .dinamicText {
+    font-size: 40px;
+  }
+}

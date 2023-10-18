@@ -1,0 +1,40 @@
+.imageSecondBox {
+    border-radius: .2rem;
+    box-shadow: 2px 2px 8px rgb(187, 185, 185);
+    width: 240px;
+    height: 296px;
+    overflow: hidden;
+    margin: 0 0 8px 8px ;
+}
+
+.secondaryImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1120px) {
+    .imageSecondBox{
+        width: 238px;
+        height: 220px;
+    }
+}
+@media (max-width: 985px) {
+    .imageSecondBox{
+        width: 210px;
+        height: 220px;
+    }
+}
+@media (max-width: 872px) {
+    .imageSecondBox{
+        width: 190px;
+        height: auto;
+    }
+}
+@media (max-width: 795px) {
+    .imageSecondBox{
+        width: 170px;
+        height: auto;
+    }
+}
+

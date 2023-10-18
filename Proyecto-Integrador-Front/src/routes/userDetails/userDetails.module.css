@@ -1,0 +1,43 @@
+.DashboardBoxBig {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    background-color: rgb(218, 215, 215);
+    width: 100%;
+}
+
+.DashboardBoxFilter {
+    width: 16%;
+}
+
+.DashboardBoxResult {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 84%;
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1420px) {
+    .DashboardBoxFilter {
+        width: 20%;
+    } 
+    .DashboardBoxResult {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1120px) {
+    .DashboardBoxBig {
+        flex-direction: column;
+        padding-top: 5rem;
+        background-color: rgb(218, 215, 215);
+        width: 100%;
+    }
+    .DashboardBoxFilter {
+        width: 100%;
+    }
+    .DashboardBoxResult {
+        width: 100%;
+    }
+}

@@ -1,0 +1,124 @@
+.orderSearchItems {
+    padding: 8rem 1rem 0;
+    margin: 0 3rem;
+}
+
+.orderresultsAFilte {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.ordersectionFilteHome {
+    width: 20%;
+}
+
+.ordersectionFilteProduct {
+    width: 80%;
+}
+
+.orderBtnFiltrosMobile {
+    display: none;
+}
+
+.orderBtnFiltrosDesktop {
+    display: block;
+}
+.loaderAnimationFilters{
+    margin: 18rem 0;
+}
+
+@media (max-width:1575px) {
+    .orderSearchItems {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width:1512px) {
+    .orderSearchItems {
+        margin: 0 1rem;
+    }
+
+    .orderresultsAFilte {
+        flex-direction: column;
+    }
+
+    .ordersectionFilteHome {
+        width: 100%;
+        padding: 0 10rem;
+    }
+
+    .ordersectionFilteProduct {
+        width: 100%;
+    }
+
+    .orderBtnFiltrosDesktop {
+        display: none;
+    }
+
+    .orderBtnFiltrosMobile {
+        display: block;
+    }
+
+    .BtnFiltrosMobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .BtnFiltrosMobile p {
+        margin-right: 2rem;
+        font-weight: 600;
+        color: rgb(132, 128, 128);
+        font-size: 13px;
+
+    }
+
+    .BtnFiltrosMobile button {
+        background-color: rgb(236, 234, 234);
+        border: 1px solid gray;
+        padding: 0 2.4rem 0 .5rem;
+        border-radius: .3rem;
+        font-weight: 600;
+        font-size: .9rem;
+        color: rgb(96, 95, 95);
+        cursor: pointer;
+    }
+
+    button.orangeButton {
+        background-color: #e95823;
+        color: white;
+    }
+
+}
+
+@media (max-width:1120px) {
+    .ordersectionFilteHome {
+        padding: 0 8rem;
+    }
+}
+
+@media (max-width:870px) {
+    .ordersectionFilteHome {
+        padding: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .orderSearchItems {
+        margin: 0 1rem;
+    }
+
+    .orderresultsAFilte {
+        flex-direction: column;
+    }
+
+    .ordersectionFilteHome {
+        width: 100%;
+    }
+
+    .ordersectionFilteProduct {
+        width: 100%;
+    }
+}

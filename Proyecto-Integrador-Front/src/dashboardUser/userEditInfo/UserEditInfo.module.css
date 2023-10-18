@@ -1,0 +1,160 @@
+.boxXitemsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.boxXitemsContainer h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.iconSave {
+    margin-left: 1rem;
+    color: #e95823;
+    font-size: 3rem;
+}
+
+.userImgDetailsBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.userImgDetailsBox img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.userNameInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.userInfoDet p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: .5rem;
+    color: #888585;
+}
+
+.userInfoDet span {
+    color: #3a3939;
+}
+
+.editData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.editProfileS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.editOrderLis {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.editProfileS h3 {
+    color: #706e6e;
+    font-weight: 600;
+}
+
+.editOrderLis input {
+    color: #3a3939;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: .3rem;
+    padding: .2rem .5rem;
+}
+
+.btnEdit {
+    padding: .2rem 1rem;
+    background-color: #e95823;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    margin-top: 1rem;
+    font-weight: 600;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.btnnotPas {
+    text-align: center;
+    color: #706e6e;
+}
+
+.btnnotPas:hover {
+    color: #353434;
+    cursor: pointer;
+}
+
+.btnnotPasnu {
+    color: transparent;
+}
+
+.errorcen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btnDelete {
+    border: none;
+    background-color: transparent;
+    color: #706e6e;
+}
+
+@media (max-width: 770px) {
+    .boxXitemsContainer h3 {
+        font-size: 2.5rem;
+    }
+
+    .editData {
+        flex-direction: column;
+    }
+
+    .userNameInfo {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .boxXitemsContainer h3 {
+        font-size: 1.9rem;
+    }
+
+    .userNameInfo {
+        flex-direction: column;
+    }
+
+    .userImgDetailsBox {
+        width: 150px;
+        height: 150px;
+    }
+
+    .userImgDetailsBox img {
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,523 @@
+.item-detail-body {
+    background-color: #D9D9D9;
+}
+
+.detailImages {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainImg {
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+    box-shadow: 2px 2px 8px rgb(187, 185, 185);
+    border-radius: .2rem;
+}
+
+.secondaryImages {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.button-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 6rem 0 3rem 0;
+    height: 600px;
+    right: 0;
+    margin-right: 2rem;
+}
+
+.btn-BackPage,
+.btn-OpenCarrousel {
+    z-index: 99;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgb(187, 185, 185, 0.7);
+    padding: .1rem .5rem;
+    border-radius: .3rem;
+    color: #484747;
+}
+
+.btn-BackPage {
+    color: #484747;
+}
+
+.btn-OpenCarrousel {
+    color: #E95823;
+    border: 2px solid #E95823;
+    padding: 8px 15px;
+}
+
+.btn-BackPage:hover,
+.btn-OpenCarrousel:hover {
+    background-color: rgba(218, 216, 216, 0.9);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.orderRoutesDetail {
+    margin: .5rem 2rem;
+}
+
+.orderRoutesDetail h4 {
+    font-size: 16px;
+    color: #817f7f;
+}
+
+.orderRoutesDetail span {
+    font-weight: 600;
+}
+
+.detailOrder {
+    margin: 1rem 10rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.orderTextDetailInt {
+    width: 60%;
+    max-width: 500px;
+}
+
+.orderTextDetailInt p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #7a7777;
+}
+
+.orderTextDetailInt span {
+    color: #b0adad;
+}
+
+.titleFeatureShare {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 3rem;
+}
+
+.titleProduct {
+    font-size: 36px;
+    font-weight: 600;
+    color: #444343;
+    margin-bottom: 1.5rem;
+}
+
+.iconDetailFeaturesDetail {
+    margin: 3rem 0;
+}
+
+.iconDetailFeaturesDetail h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #5f5c5c;
+}
+
+.iconContainerFeaturesDetail {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.featuresDetailProduct {
+    display: flex;
+    align-items: flex-start;
+}
+
+.iconDescriptionFeaturesD {
+    margin-left: 0.5rem;
+    margin-top: 0;
+}
+
+.tapeDetailProducts {
+    margin-top: 2rem;
+}
+
+.tapeDetailProducts h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #5f5c5c;
+}
+
+.tapeDetailProducts p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #242424;
+}
+
+.tapeDetailProducts h4,
+.mapsDetail h4 {
+    color: #5f5c5c;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.tapeDetailProducts p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6B6B6B;
+    margin-right: 2rem;
+}
+
+.mapsDetail {
+    margin: 3rem 0 0;
+    width: 900px;
+}
+
+.mapsDetail iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.SaveAndRate {
+    width: 40%;
+    position: sticky;
+    top: 6.5rem;
+}
+
+.SaveAdventure {
+    border-radius: .5rem;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.SaveAdventureTitle {
+    background-color: #ffffff;
+    padding: 1.5rem 2rem 1rem;
+    border-radius: .5rem .5rem 0 0;
+    border-top: 2px solid #E95823;
+    border-left: 2px solid #E95823;
+    border-right: 2px solid #E95823;
+}
+
+.SaveAdventureTitle h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.borderAdnv {
+    border: 2px solid #E95823;
+    border-width: 0px 2px 2px 2px;
+    padding-bottom: 2rem;
+    border-radius: 0 0 .5rem .5rem;
+    background-color: #eeeeee;
+}
+
+.SaveAdventureDe {
+    padding: 1rem 2rem;
+}
+
+.SaveAdventurePrice {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.selectPeople {
+    width: 384px;
+    padding: 10px 27px 10px 27px;
+    color: #6B6B6B;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    border-radius: .5rem;
+}
+
+.priceAdv {
+    font-weight: 600;
+    font-size: 32px;
+    color: rgb(65, 64, 64);
+}
+
+.savetotalPorcent {
+    display: flex;
+    flex-direction: column;
+}
+
+.savetotalPorcent p {
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #E95823;
+    padding: 0 .4rem;
+    border-radius: .3rem;
+}
+
+.PriceDiscontStart {
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.PriceDiscontFinal {
+    color: rgb(24, 190, 24);
+}
+
+.buttonSaveAdv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonSaveAdv button {
+    background-color: #E95823;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: .7rem;
+    border: none;
+    border-radius: .5rem;
+    width: 80%;
+    border: 2px solid #E95823;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.boxLogReserBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorLogReserBtn {
+    font-size: .9rem;
+    text-align: center;
+    color: #6B6B6B;
+    margin: 1.5rem 3rem 0;
+    width: 60%;
+}
+
+.LogInBtnRes {
+    color: #E95823;
+    font-weight: 600;
+}
+
+.continueBuy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnBackBuy {
+    color: #E95823;
+    border: 2px solid #E95823;
+    font-size: 16px;
+    font-weight: 600;
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    background-color: transparent;
+    margin-right: 1rem;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.aclaracion {
+    font-size: 13px;
+    margin-top: 10px;
+    padding-left: 65px;
+}
+
+.dateError {
+    font-size: 13px;
+    color: red;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: block;
+}
+
+.noDateError {
+    display: none;
+}
+
+.btnGoProductBuy {
+    border: 2px solid #E95823;
+    background-color: #E95823;
+    color: #ffffff;
+    border-radius: .5rem;
+    margin-left: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    padding: .7rem 1rem;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ebeaea;
+}
+
+.custom-container {
+    width: 384px;
+}
+
+.custom-container .rmdp-input {
+    width: 384px;
+    padding: 22px 0px;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.scoreButton {
+    color: #E95823;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* Arreglo de media solo para el mapa */
+@media (max-width:1300px) {
+    .mapsDetail iframe {
+        width: 90%;
+    }
+}
+
+@media (max-width:1120px) {
+
+    .item-detail-body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .mainImg {
+        height: 450px;
+        width: 100%;
+    }
+
+    .button-container {
+        height: 450px;
+        gap: 0;
+    }
+
+    .secondaryImages {
+        margin-top: 0px;
+        gap: 0px;
+    }
+
+    .detailOrder {
+        margin: 1.3rem;
+    }
+
+    .orderTextDetailInt,
+    .titleProduct {
+        padding: 0;
+        margin: 0;
+    }
+
+    .titleProduct {
+        font-size: 30px;
+    }
+
+    .iconDetailFeaturesDetail h4 {
+        font-size: 20px;
+    }
+
+    p.iconDescriptionFeaturesD {
+        font-size: 14px;
+    }
+
+    .tapeDetailProducts h3 {
+        font-size: 20px;
+    }
+
+    .tapeDetailProducts h4 {
+        font-size: 20px;
+    }
+
+    .mapsDetail iframe {
+        height: 250px;
+    }
+
+    .SaveAndRate {
+        margin-top: 1rem;
+    }
+
+    .SaveAdventureDe {
+        padding: 1rem 2rem;
+    }
+
+    .savetotalPorcent p {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .btn-BackPage {
+        display: none;
+    }
+
+    .detailImages {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mainImg {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .button-container {
+        height: 500px;
+        justify-content: end;
+    }
+
+    .secondaryImages {
+        display: none;
+    }
+
+    .detailOrder {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .orderTextDetailInt {
+        width: 90%;
+        margin: 0 1rem;
+    }
+
+    .titleFeatureShare {
+        margin-bottom: 1rem;
+    }
+
+    .titleProduct {
+        font-size: 25px;
+    }
+
+    .SaveAndRate {
+        min-width: 80%;
+    }
+
+    .orderRoutesDetail {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapsDetail {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .SaveAndRate {
+        min-width: 90%;
+    }
+
+    .savetotalPorcent p {
+        font-size: .8rem;
+    }
+}

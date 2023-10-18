@@ -1,0 +1,139 @@
+.orderItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw;
+    gap: 40px;
+    max-width: 1120px;
+    padding-bottom: 50px;
+}
+
+.categoriesSelectTitle {
+    font-weight: 600;
+}
+
+.items-container {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.our-services {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.cardRender {
+    padding-top: 120px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+}
+
+p.paragraph {
+    font-size: 25px;
+}
+
+@media (max-width: 1260px) {
+    .orderItems {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .orderItems {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-description {
+        text-align: center;
+    }
+
+    .items-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 679px) {
+
+    .our-services {
+        font-size: 40px;
+    }
+
+    p.paragraph {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .our-services {
+        font-size: 2rem;
+        padding: 0.5em;
+    }
+
+    .cardRender {
+        padding-top: 10px;
+    }
+
+    .items-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragraph {
+        width: 90%;
+        margin: 1em;
+    }
+
+    .select {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .selectCategories {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .itemCategories {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.5em;
+    }
+
+    .text-description {
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width:321px) and (max-width: 768px) {
+    .items-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select {
+        padding: 2em;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .items-container {
+        display: flex;
+        align-items: center;
+        padding: 1em;
+    }
+
+}

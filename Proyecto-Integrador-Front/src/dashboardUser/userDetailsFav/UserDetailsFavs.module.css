@@ -1,0 +1,205 @@
+.cardRender {
+    width: 100vw;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxXitemsContainer h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.boxXitemsContainer label {
+    margin-left: 1rem;
+}
+
+.favoriteCount {
+    font-size: 1.3rem;
+    position: relative;
+    right: 1.9rem;
+    bottom: .65rem;
+    color: rgb(0, 0, 0);
+}
+
+.itemsContainer {
+    max-width: 100vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxXitemsparrrr {
+    background-color: #e95823;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+    color: aliceblue;
+    position: relative;
+    bottom: 1rem;
+}
+
+.loadddddd {
+    margin: 18rem 0;
+}
+
+.productContainer {
+    width: 540px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 2px 2px 6px gray;
+}
+
+.containerImage {
+    width: fit-content;
+}
+
+.itemImageStyle {
+    width: 256px;
+    height: 310px;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.productDescription {
+    width: 15rem;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.productDescription p {
+    font-weight: 600;
+}
+
+.titleDescription {
+    font-size: 20px;
+}
+
+.textDescription {
+    font-size: 12px;
+}
+
+.buttonsFavs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seeMoreBtn {
+    width: 110px;
+    height: 40px;
+    background-color: #e95823;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.deleteFavBtn {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.deleteFavBtn:hover {
+    cursor: pointer;
+    color: #E95823;
+    animation: bounce_613 0.6s linear;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.1);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.limitText p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+@media (max-width: 600px) {
+    .productContainer {
+        width: 300px;
+        height: 200px;
+    }
+
+    .itemImageStyle {
+        width: 150px;
+        height: 200px;
+    }
+
+    .productDescription {
+        width: 45%;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .titleDescription {
+        font-size: 15px;
+    }
+
+    .buttonsFavs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .seeMoreBtn {
+        width: 90px;
+        height: 30px;
+    }
+
+    .boxXitemsContainer h3 {
+        font-size: 2.5rem;
+    }
+
+    .favoriteCount {
+        right: 1.65rem;
+        bottom: .5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .productContainer {
+        width: 250px;
+        height: 150px;
+    }
+
+    .itemImageStyle {
+        width: 100px;
+        height: 150px;
+    }
+
+    .titleDescription {
+        font-size: 10px;
+    }
+}

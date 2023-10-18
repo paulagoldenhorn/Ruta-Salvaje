@@ -1,0 +1,309 @@
+.navBarNav {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.9) 40%);
+    height: 90px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    padding: 10px 20px 20px 20px;
+}
+
+.logoSection {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.logInSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    background-color: darkgreen;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.custom-link,
+.custom-link-reversed {
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    border: 2px solid #e95823;
+}
+
+.custom-link {
+    background-color: #e95823;
+    color: #ffffff;
+}
+
+.custom-link:hover {
+    background-color: #333;
+    color: #e95823;
+}
+
+.custom-link-reversed {
+    color: #e95823;
+}
+
+.custom-link-reversed:hover {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #e95823;
+}
+
+.loggedUser {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.userData {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userData p {
+    text-align: end;
+    font-weight: 600;
+    height: 10px;
+    color: #000000;
+}
+
+.userData a {
+    color: #6b6b6b;
+}
+
+.userData button {
+    background-color: transparent;
+    border: none;
+    color: #6b6b6b;
+}
+
+.userIcon {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: #e95823;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.userIcon p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navBarUserBtn:hover {
+    color: white;
+    background-color: #6b6b6b;
+    padding: 2px 2px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+
+@media(max-width: 321px) {
+    .logoSection img {
+        width: 20vw;
+    }
+
+    .logInSection {
+        display: none;
+        height: 1em;
+        justify-content: end;
+        margin-right: 1vw;
+        width: 2em;
+        font-size: 1em;
+    }
+
+    .createCountBtn {
+        margin-right: 1vw;
+        width: 70px;
+    }
+
+    .logInBtn {
+        margin-left: 1vw;
+        width: 70px;
+    }
+
+    .burguerMenu {
+        margin: 0.5em;
+        font-size: 2em;
+    }
+}
+
+.dropdownMenu {
+    position: absolute;
+    margin-top: 20px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.menuName {
+    padding: 10px 0 0 35px;
+    color: #e95823;
+}
+
+ul {
+    list-style: none;
+}
+
+.dropdownMenu ul li {
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05)
+}
+
+.dropdownItem {
+    display: flex;
+    margin: 10px auto;
+}
+
+.optionSelect {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    color: black;
+    margin-top: 10px;
+}
+
+.optionSelect:hover {
+    color: #e95823;
+}
+
+.menuIcon {
+    font-size: 20px;
+}
+
+.dropdownMenu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+}
+
+.dropdownMenu.inactive {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+}
+
+@media (min-width:321px) and (max-width: 767px) {
+    .navBarNav {
+        padding: 0.5rem 2rem;
+    }
+
+    .userIconLoggedOut {
+        margin-bottom: 10px;
+    }
+
+    .logoSection img {
+        width: 50%;
+    }
+
+    .logInSection {
+        align-items: center;
+        display: flex;
+        width: 49%;
+        justify-content: end;
+        margin-right: 50vw;
+        font-size: 0.5em;
+    }
+
+    .createCountBtn {
+        height: 90%;
+        margin-right: 1vw;
+        width: 130px;
+    }
+
+    .logInBtn {
+        height: 90%;
+        margin-left: 1vw;
+        width: 130px;
+    }
+
+    main {
+        background-color: #600;
+    }
+
+    .burguerMenu {
+        display: flex;
+    }
+}
+
+.logoutMobile {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userIconLoggedOut {
+    font-size: 25px;
+
+}
+
+.openIcon {
+    color: #e95823;
+}
+
+.closedIcon {
+    color: black;
+}
+
+@media(min-width: 769px) and (max-width: 1020px) {
+    .logoSection img {
+        width: 70%;
+    }
+
+    .logInSection {
+        margin-right: 2vw;
+        transform: scale(0.8);
+    }
+
+    .createCountBtn {
+        width: 150px;
+    }
+
+    .logInBtn {
+        width: 150px;
+    }
+
+    main {
+        background-color: #fff;
+    }
+
+    .burguerMenu {
+        display: none;
+    }
+
+    .navBarNav {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1920px) {
+    .burguerMenu {
+        display: none;
+    }
+}

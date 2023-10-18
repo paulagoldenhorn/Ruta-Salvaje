@@ -1,0 +1,54 @@
+.logout-container {
+    min-height: 87vh;
+    display: flex;
+    justify-content: center;
+    background-color: #bbb;
+}
+
+.logout-container .logout-section {
+    min-width: 100vw;
+    min-height: 80vh;
+    display: flex;
+}
+
+.logout-section .logout-btn-container {
+    min-height: 80vh;
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.logout-btn-container h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.logout-btn-container button {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #e95823;
+    color: #fff;
+    border: none;
+    transition: 0.4s;
+}
+
+.logout-btn-container button:hover {
+    color: #e95823;
+    background-color: #242424;
+}
+
+
+.logout-section .logout-img-container {
+    width: 50%;
+    height: 87vh;
+}
+
+.logout-img-container img {
+    height: 87vh;
+    min-width: 100%;
+}

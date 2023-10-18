@@ -1,0 +1,228 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    overflow-y: scroll;
+    background-color: #D9D9D9;
+}
+
+.form-container-register {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-container-register h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form-container-register input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container-register button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label {
+    font-weight: 600;
+}
+
+.plain-link {
+    color: #6B6B6B;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.google-register {
+    background-color: transparent;
+    border: 1px solid #ea4335;
+    color: #ea4335;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.image-container {
+    flex: 0.5;
+    background-size: contain;
+    background-position: center;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 150vh;
+    object-fit: cover;
+}
+
+.centered-button {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #e95823;
+    color: #fff;
+    border: none;
+}
+
+.forgot-password {
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.register-now {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form-container-register input:focus {
+    border-color: #e95823;
+    outline: none;
+    box-shadow: 0 0 4px #e9582380;
+}
+
+.succeedBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.succeedButton {
+    border: none;
+    color: white;
+    width: 100%;
+}
+
+.noNeed {
+    background-color: #e95823;
+}
+
+.mailSended {
+    background-color: #059E49;
+}
+
+.succeedText {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #059E49;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.boxError {
+    margin-top: 20px;
+    ;
+    max-width: 100%;
+    height: auto;
+    margin: 5px auto;
+    background-color: #D4264B;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+.confirm-password-container {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .image-container img {
+        display: none;
+    }
+
+    .register-container {
+        height: 100vh;
+        align-items: center;
+        display: block;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .form-container-register {
+        flex: 0.5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        border-radius: 5px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .register-container {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .form-container-register {
+        flex: 0.5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        border-radius: 5px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .register-container h4 {
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+
+    .image-container img {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-container-register {
+        flex: 0.5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        background-color: transparent;
+        border: none;
+        border-radius: 5px;
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .image-container img {
+        display: none;
+    }
+}

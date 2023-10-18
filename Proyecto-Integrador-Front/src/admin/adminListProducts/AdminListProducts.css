@@ -1,0 +1,240 @@
+.listProductsAdmin {
+  padding: .5rem 2rem;
+}
+
+.listProductsAdmin p {
+  color: rgb(150, 145, 145);
+}
+
+.spanAdminList {
+  color: rgb(46, 45, 45);
+}
+
+.spanAdminList2 {
+  color: rgb(192, 187, 187);
+}
+
+.listProductsAdmin h3 {
+  color: rgb(170, 168, 168);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 1.7em;
+}
+
+.AdminCardItem {
+  display: flex;
+  margin-bottom: .9rem;
+  width: 100%;
+}
+
+.AdminCardItemImg {
+  box-shadow: 1px 1px 2px rgb(164, 162, 162);
+  width: 12em;
+  height: auto;
+  border-radius: 1rem 0 0 1rem;
+  margin-right: .2rem;
+  object-fit: cover;
+}
+
+.AdminCardItemDetail {
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 1rem 1rem 0;
+  margin-right: .5rem;
+  box-shadow: 1px 1px 2px rgb(164, 162, 162);
+  width: 70%;
+}
+
+.orderTitleCardArmin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.orderTitleCardArmin h4 {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5d5b5b;
+}
+
+hr.hrAdminDetailP {
+  border: 1px solid rgb(211, 206, 206);
+  margin: 0 1rem;
+}
+
+.orderTitleCardArminTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.orderTitleCardArminDes{
+  width: 75%;
+}
+.orderTitleCardArminTwo p {
+  font-size: 14px;
+  padding-right: 1rem;
+  font-weight: 600;
+  color: #8d8b8b;
+}
+
+.spanAdminList2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.orderListTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.orderListTitle div {
+  display: flex;
+}
+
+.two-column-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 0.65em;
+  padding: 0;
+  margin: 0;
+  text-align: end;
+}
+
+.two-column-list li {
+  flex: 1 1 50%;
+  padding-left: 0.3rem;
+  color: #5d5b5b;
+  font-weight: 600;
+}
+
+.orderAdminButtonPro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderAdminButtonPro button {
+  margin: 0 .5rem;
+}
+
+.orderAdminButtonPro a {
+  margin: 0 .5rem;
+}
+
+.Btn {
+  font-size: 14px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px;
+  height: 40px;
+  border: none;
+  padding: 0px 20px;
+  background: #f4f3f3;
+  color: rgb(65, 63, 63);
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ebeaea;
+}
+
+.svg {
+  width: 14px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  fill: rgb(0, 0, 0);
+  transition-duration: .3s;
+}
+
+.Btn:hover {
+  background-color: rgb(156, 153, 153);
+  color: transparent;
+}
+
+.Btn:hover svg {
+  right: 43%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: .3s;
+  transform: scale(1.7);
+}
+
+.Btn:active {
+  transform: translate(1.5px, 1.5px);
+  transition-duration: .3s;
+  background-color: rgb(106, 103, 103);
+}
+
+
+.orderAddBtnAddm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: 1rem 0 2rem;
+}
+
+.buttonAddListAdd {
+  width: 38px;
+  height: 38px;
+  border-radius: 40%;
+  background-color: #918f8e;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ebeaea;
+  cursor: pointer;
+  transition-duration: .3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.svgIcon {
+  scale: 2;
+  transition-duration: .3s;
+}
+
+.svgIcon {
+  fill: rgb(227, 225, 225);
+}
+
+.buttonAddListAdd:hover {
+  width: 160px;
+  border-radius: .5rem;
+  transition-duration: .3s;
+  background-color: #E95823;
+  align-items: center;
+}
+
+.buttonAddListAdd:hover .svgIcon {
+  transition-duration: .3s;
+  transform: scale(2) translateY(60%);
+}
+
+.buttonAddListAdd::before {
+  position: absolute;
+  top: -20px;
+  content: "Agregar nueva";
+  color: white;
+  transition-duration: .3s;
+  font-size: 2px;
+}
+
+.buttonAddListAdd:hover::before {
+  font-size: 13px;
+  opacity: 1;
+  transform: translateY(30px);
+  transition-duration: .3s;
+}

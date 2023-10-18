@@ -1,0 +1,18 @@
+.whatsApp {
+    display: flex;
+    justify-content: right;
+}
+
+.whatsappIcon {
+    position: fixed;
+    bottom: 2.5rem;
+    color: green;
+    width: 5rem;
+    font-size: 4rem;
+}
+
+@media (max-width: 354px) {
+    .whatsappIcon {
+        bottom: 4rem;
+    }
+}

@@ -1,0 +1,151 @@
+.RateAdventure {
+  margin-top: 1rem;
+  border-radius: .5rem;
+  box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ebeaea;
+}
+
+.RateAdventureTitle {
+  background-color: #ffffff;
+  padding: 1.5rem 2rem 1rem;
+  border-radius: .5rem .5rem 0 0;
+  border-top: 2px solid #E95823;
+  border-left: 2px solid #E95823;
+  border-right: 2px solid #E95823;
+}
+
+.RateAdventureTitle h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.borderAdnv {
+  border: 2px solid #E95823;
+  border-width: 0px 2px 2px 2px;
+  padding-bottom: 2rem;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.RateAdventureDe {
+  padding: 0rem 2rem;
+}
+
+.RateAdventureDe p {
+  padding: .5rem 0 0;
+}
+
+.RateAdventurePrice {
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.DescribeRate {
+  width: 100%;
+  height: 4rem;
+  padding: 10px 27px 10px 27px;
+  color: #6B6B6B;
+  background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: .5rem;
+}
+
+.buttonRateAdv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.buttonRateAdv button {
+  background-color: #E95823;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: .7rem;
+  border: none;
+  border-radius: .5rem;
+  width: 80%;
+  border: 2px solid #E95823;
+  box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px 12px #ebeaea;
+}
+
+.DescribeRateP {
+  padding: .5rem;
+  font-weight: 600;
+}
+
+p.textError {
+  color: red;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.ratingRateDescri {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DateRating {
+  margin-top: .8rem;
+  font-size: 14px;
+  color: rgb(63, 61, 61);
+}
+
+h4.UserRating {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: rgb(117, 116, 116);
+}
+
+.ratingRate {
+  display: inline-block;
+  gap: 10px;
+}
+
+
+.ratingRate input {
+  display: none;
+}
+
+.ratingRate label {
+  float: right;
+  cursor: pointer;
+  color: #9c9c9c;
+  transition: color 0.3s;
+}
+
+.ratingRate label:before {
+  content: '\2605';
+  font-size: 30px;
+}
+
+.rating-star {
+  content: '\2605';
+  font-size: 30px;
+}
+
+.ratingRate input:checked~label,
+.ratingRate label:hover,
+.ratingRate label:hover~label {
+  color: #E95823;
+  transition: color 0.3s;
+}
+
+@media (max-width: 850px) {
+  .ratingRateDescri {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 720px) {
+  .ratingRateDescri {
+    flex-direction: row;
+  }
+}

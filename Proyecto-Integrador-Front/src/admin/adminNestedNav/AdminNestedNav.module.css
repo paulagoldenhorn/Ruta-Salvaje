@@ -1,0 +1,74 @@
+.nested {
+    background-color: #FFFFFF;
+    width: 16%;
+    padding: 2.5rem 0;
+}
+
+.navNested {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.navTttNested{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.navTttNested h4{
+    font-weight: 600;
+    color: #4d4b4a;
+}
+
+
+.navNested ul{
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.listNested li {
+    padding-left: 2.5rem;
+    padding-top: .3rem;
+    position: relative;
+    bottom: .7rem;
+}
+
+.ConttitleNested {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.titleNested {
+    color: #E95823;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-left: .7rem;
+    margin-bottom: .5rem;
+}
+
+.imgNester {
+    height: 28px;
+    width: 28px;
+    color: #E95823;
+}
+.imgNeste{
+    font-size: 2rem;
+    color: #4d4b4a;
+    position: relative;
+    top: -.2rem;
+}
+.listNested a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #6B6B6B;
+    transition: color 0.3s, text-decoration 0.3s;
+    font-weight: 600;
+}
+
+.listNested a:hover {
+    color: #E95823;
+    font-weight: 600;
+}

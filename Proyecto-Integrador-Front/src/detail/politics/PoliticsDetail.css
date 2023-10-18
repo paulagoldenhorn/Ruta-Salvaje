@@ -1,0 +1,121 @@
+.politics-container {
+    flex-direction: column;
+    align-items: center;
+    margin:0 160px;
+    padding: 1.5rem 0 2rem;
+}
+
+.policy-title {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.policy {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.policy h4 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.policy-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.arrow {
+    transition: transform 0.3s;
+}
+
+.arrow.expanded {
+    transform: rotate(90deg);
+}
+
+.policy-content {
+    margin-top: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              max-width: 991px                              */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 991px) {
+
+}
+
+
+/* -------------------------------- iPad Mini ------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                              max-width: 767px                              */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .policy-list {
+        display: block; /* Configuración para mostrar las políticas en una sola columna */
+    }
+
+    .policy {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        /* Espacio entre políticas */
+    }
+}
+
+
+/* -------------------------------- iPhone XR -------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                              max-width: 480px                              */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+    .policy-list {
+        display: block; /* Mostrar las políticas en una sola columna */
+    }
+
+    .policy {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        /* Espacio entre políticas */
+    }
+
+    .politics-container {
+        margin: 50px; /* Aún menos margen para dispositivos móviles más pequeños */
+    }
+
+    .policy-title {
+        font-size: 16px;
+    }
+
+    .policy {
+        margin-bottom: 5px;
+    }
+
+    .policy h4 {
+        font-size: 14px;
+    }
+
+    .policy-header {
+        font-size: 14px;
+    }
+
+    .policy-content {
+        font-size: 12px;
+    }
+}

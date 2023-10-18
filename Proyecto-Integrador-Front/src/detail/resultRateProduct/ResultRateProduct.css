@@ -1,0 +1,52 @@
+.orderResultRate {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 43%;
+  height: 100%;
+}
+
+.starRate {
+  color: #E95823;
+  font-size: 1.2rem;
+}
+
+.orderResultRate p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.ResultRatingsBtn:hover {
+  cursor: pointer;
+  color: #E95823;
+  animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+  40% {
+      transform: scale(1.1);
+  }
+
+  60% {
+      transform: scale(1);
+  }
+
+  80% {
+      transform: scale(1.1);
+  }
+
+  100% {
+      transform: scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  .orderResultRate {    
+    width: 60%;
+  }
+}
+@media (max-width: 600px) {
+  .orderResultRate {    
+    width: 70%;
+}
+}
